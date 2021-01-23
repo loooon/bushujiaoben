@@ -4,7 +4,7 @@
 > 后台运行：nohup java -jar demo-0.0.1-SNAPSHOT.jar  > log.file  2>&1 &
 
 ---
-···
+```
 start.sh
 #!/bin/bash 
  
@@ -29,11 +29,11 @@ echo "--------CALLCENTER start--------------"
  
 nohup java -jar $dir/$CALLCENTER   > $dir/nohup.out 2>&1 &
 tail -f $dir/nohup.out
-···
+```
 ---
 
 stop.sh
-···
+```
 #!/bin/bash
 
  
@@ -51,4 +51,4 @@ else
 	kill -9 $P_ID
 	echo "CALLCENTER killed success"
 fi
-···
+```
