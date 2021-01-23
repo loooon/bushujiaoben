@@ -4,8 +4,8 @@
 > 后台运行：nohup java -jar demo-0.0.1-SNAPSHOT.jar  > log.file  2>&1 &
 
 ---
-```
 start.sh
+```
 #!/bin/bash 
  
 export CALLCENTER=word-0.0.1-SNAPSHOT.jar
